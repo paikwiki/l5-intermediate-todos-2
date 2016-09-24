@@ -19,5 +19,5 @@ Route::get('/home', 'HomeController@index');
 
 // get post delete
 Route::get('/tasks', 'TaskController@index');
-Route::post('/tasks', 'TaskController@store');
+Route::post('/task', 'TaskController@store');
 Route::delete('/task/{task}', 'TaskController@destroy');
